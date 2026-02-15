@@ -51,20 +51,7 @@ Add a new entry **at the top** of `src/data/posts.json`:
 
 > **Important:** The `slug` must match the markdown filename (without `.md`).
 
-### 3. Add the prerender route (for SEO)
-
-Open `vite.config.js` and add the new blog slug to the `routes` array:
-
-```js
-routes: [
-    '/',
-    '/blog',
-    '/blog/my-new-post-slug',   // ← add this
-    ...existing routes
-],
-```
-
-### 4. Test locally
+### 3. Test locally
 
 ```bash
 npm run dev
@@ -72,7 +59,7 @@ npm run dev
 
 Open `http://localhost:5173/blog/my-new-post-slug` to preview.
 
-### 5. Deploy
+### 4. Deploy
 
 Push to `main` and GitHub Actions will automatically build and deploy.
 
