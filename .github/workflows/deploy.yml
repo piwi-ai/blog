@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install
+      - run: npm install --force
       - run: npx puppeteer browsers install chrome
       - run: npm run build
 
