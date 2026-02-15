@@ -35,7 +35,7 @@ export default function BlogPost() {
 
     useEffect(() => {
         if (!post) return
-        fetch(`/posts/${slug}.md`)
+        fetch(`${import.meta.env.BASE_URL}posts/${slug}.md`)
             .then((res) => res.text())
             .then((text) => {
                 setContent(text)
