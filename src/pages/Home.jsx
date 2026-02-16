@@ -58,7 +58,7 @@ export default function Home() {
                         </li>
                     ))}
                 </ul>
-                <Link to="/" className="view-all">
+                <Link to="/blog" className="view-all">
                     View all posts →
                 </Link>
             </section>
