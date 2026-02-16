@@ -87,6 +87,9 @@ main.container {
     align-items: center;
     justify-content: space-between;
     height: 64px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .navbar-brand {
