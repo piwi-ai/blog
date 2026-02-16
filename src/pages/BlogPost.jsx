@@ -4,6 +4,8 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
 import posts from '../data/posts.json'
+import authors from '../data/authors.json'
+import AuthorSidebar from '../components/AuthorSidebar'
 
 function formatDate(dateStr) {
     return new Date(dateStr + 'T00:00:00').toLocaleDateString('en-US', {
@@ -24,6 +26,7 @@ export default function BlogPost() {
     const [loading, setLoading] = useState(true)
 
     const post = posts.find((p) => p.slug === slug)
+    const author = post ? authors[post.author] : null
 
     useEffect(() => {
         if (post) {
@@ -57,33 +60,36 @@ export default function BlogPost() {
     }
 
     return (
-        <div className="blog-post">
-            <div className="post-header">
-                <Link to="/blog" className="post-back-link">
-                    ← Back to blog
-                </Link>
-                <h1>{post.title}</h1>
-                <div className="post-meta">
-                    <span>{formatDate(post.date)}</span>
-                    {content && (
-                        <span className="reading-time">{readingTime(content)}</span>
-                    )}
+        <div className="blog-post-layout">
+            <article className="blog-post">
+                <div className="post-header">
+                    <Link to="/blog" className="post-back-link">
+                        ← Back to blog
+                    </Link>
+                    <h1>{post.title}</h1>
+                    <div className="post-meta">
+                        <span>{formatDate(post.date)}</span>
+                        {content && (
+                            <span className="reading-time">{readingTime(content)}</span>
+                        )}
+                    </div>
                 </div>
-            </div>
 
-            {loading ? (
-                <p className="loading">Loading...</p>
-            ) : (
-                <div className="post-body">
-                    <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-                        {content}
-                    </ReactMarkdown>
+                {loading ? (
+                    <p className="loading">Loading...</p>
+                ) : (
+                    <div className="post-body">
+                        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+                            {content}
+                        </ReactMarkdown>
+                    </div>
+                )}
+
+                <div className="post-footer">
+                    <Link to="/blog">← All posts</Link>
                 </div>
-            )}
-
-            <div className="post-footer">
-                <Link to="/blog">← All posts</Link>
-            </div>
+            </article>
+            <AuthorSidebar author={author} />
         </div>
     )
 }

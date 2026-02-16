@@ -1,0 +1,18 @@
+{
+    "adrian": {
+        "name": "Adrian Besleaga",
+        "role": "Founder of Piwi.ai",
+        "bio": "Full-stack developer building privacy-first AI document processing. 10+ years in Java, TypeScript & cloud engineering.",
+        "avatar": "/authors/adrian.jpg",
+        "linkedin": "https://www.linkedin.com/in/adrian-besleaga/",
+        "website": "https://adrianweb.xyz",
+        "github": "https://github.com/AdrianBesleaga"
+    },
+    "alina": {
+        "name": "Alina Anitei",
+        "role": "Marketing @ Piwi.ai | Helping businesses eliminate manual data entry with AI",
+        "bio": "Writing about AI, automation, and the future of intelligent document processing.",
+        "avatar": "/authors/alina.jpg",
+        "linkedin": "https://www.linkedin.com/in/alina-anitei/"
+    }
+}

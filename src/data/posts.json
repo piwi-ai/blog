@@ -3,54 +3,63 @@
         "slug": "seo-vs-geo-2026",
         "title": "SEO vs GEO: Why Your Business Needs Both in 2026",
         "date": "2026-02-15",
-        "excerpt": "The way people find businesses is changing. Learn why you need both SEO and GEO in 2026, and how to optimize for AI recommendations alongside traditional search."
+        "excerpt": "The way people find businesses is changing. Learn why you need both SEO and GEO in 2026, and how to optimize for AI recommendations alongside traditional search.",
+        "author": "alina"
     },
     {
         "slug": "contract-automation-ai-mapping-vs-reading",
         "title": "Mapping vs. Reading: Most AI Fails at Contract Automation",
         "date": "2026-02-15",
-        "excerpt": "Stop the Copy-Paste Tax. Piwi.ai uses 98% accurate mapping to reduce processing time by 75%. Learn why intelligent mapping beats simple AI reading."
+        "excerpt": "Stop the Copy-Paste Tax. Piwi.ai uses 98% accurate mapping to reduce processing time by 75%. Learn why intelligent mapping beats simple AI reading.",
+        "author": "adrian"
     },
     {
         "slug": "8-signs-ai-automation-for-business",
         "title": "8 Signs Your Company Needs AI Automation Now",
         "date": "2026-02-10",
-        "excerpt": "Companies lose 20-30% of revenue to manual tasks. Discover the 8 signs your company needs AI automation to scale, reduce errors, and save."
+        "excerpt": "Companies lose 20-30% of revenue to manual tasks. Discover the 8 signs your company needs AI automation to scale, reduce errors, and save.",
+        "author": "alina"
     },
     {
         "slug": "intelligent-document-processing-trends-2026",
         "title": "Intelligent Document Processing Trends 2026: The New Era of Data Intelligence",
         "date": "2026-02-05",
-        "excerpt": "Explore the 10 key trends shaping IDP in 2026—from agentic AI and vertical models to citizen builders and governance-by-design."
+        "excerpt": "Explore the 10 key trends shaping IDP in 2026—from agentic AI and vertical models to citizen builders and governance-by-design.",
+        "author": "alina"
     },
     {
         "slug": "ai-orchestration-strategy-2026",
         "title": "How to Achieve Speed and Logic: The AI Orchestration Imperative of 2026",
         "date": "2026-01-28",
-        "excerpt": "The one-size-fits-all AI era is over. Discover how to implement an AI orchestration strategy that balances speed and logic for maximum ROI."
+        "excerpt": "The one-size-fits-all AI era is over. Discover how to implement an AI orchestration strategy that balances speed and logic for maximum ROI.",
+        "author": "adrian"
     },
     {
         "slug": "document-intelligence-2026",
         "title": "Beyond the Search: Why 2026 is the Year We Move from OCR to Document Intelligence",
         "date": "2026-01-20",
-        "excerpt": "Move beyond simple OCR. Discover why 2026 is the year enterprises must adopt Document Intelligence to transform unstructured data into actionable insights."
+        "excerpt": "Move beyond simple OCR. Discover why 2026 is the year enterprises must adopt Document Intelligence to transform unstructured data into actionable insights.",
+        "author": "adrian"
     },
     {
         "slug": "2026-reality-check-systems-architect",
         "title": "The 2026 Reality Check: Why You Should Stop Prompting and Start Building Systems",
         "date": "2026-01-15",
-        "excerpt": "Prompt engineering is dead. The future belongs to the Systems Architect who builds automated, agentic workflows. Here's your roadmap."
+        "excerpt": "Prompt engineering is dead. The future belongs to the Systems Architect who builds automated, agentic workflows. Here's your roadmap.",
+        "author": "adrian"
     },
     {
         "slug": "2025-intelligent-document-processing",
         "title": "2025: The Year Document Processing Became Intelligent",
         "date": "2025-12-20",
-        "excerpt": "2025 defined AI impact. Discover how Intelligent Document Processing reached 99%+ accuracy and shifted enterprises to Straight-Through Processing."
+        "excerpt": "2025 defined AI impact. Discover how Intelligent Document Processing reached 99%+ accuracy and shifted enterprises to Straight-Through Processing.",
+        "author": "adrian"
     },
     {
         "slug": "death-of-data-entry-2025",
         "title": "The Death of Data Entry: Why 2025 is the End of Manual Typing",
         "date": "2025-12-01",
-        "excerpt": "Manual data entry ended in 2025. Discover how Intelligent Document Processing achieved 99%+ accuracy and enabled Straight-Through Processing."
+        "excerpt": "Manual data entry ended in 2025. Discover how Intelligent Document Processing achieved 99%+ accuracy and enabled Straight-Through Processing.",
+        "author": "alina"
     }
 ]
