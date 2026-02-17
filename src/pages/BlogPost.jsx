@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
+import rehypeSlug from 'rehype-slug'
 import posts from '../data/posts.json'
 import authors from '../data/authors.json'
 import AuthorSidebar from '../components/AuthorSidebar'
@@ -47,6 +48,20 @@ export default function BlogPost() {
             .catch(() => setLoading(false))
     }, [slug, post])
 
+    // Handle scrolling when navigating directly to a URL with a hash
+    // (needed because content loads async in React)
+    useEffect(() => {
+        if (loading) return
+        const hash = window.location.hash
+        if (hash) {
+            setTimeout(() => {
+                const el = document.getElementById(hash.replace('#', ''))
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+            }, 100)
+        }
+    }, [loading])
+
+
     if (!post) {
         return (
             <div className="blog-post">
@@ -79,7 +94,10 @@ export default function BlogPost() {
                     <p className="loading">Loading...</p>
                 ) : (
                     <div className="post-body">
-                        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+                        <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
+                            rehypePlugins={[rehypeRaw, rehypeSlug]}
+                        >
                             {content}
                         </ReactMarkdown>
                     </div>
