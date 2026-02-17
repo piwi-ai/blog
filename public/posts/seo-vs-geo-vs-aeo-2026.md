@@ -18,16 +18,17 @@ In 2026, you need all three. Together, they form one complete strategy: **Search
 
 <div style="color: #00b894;">
 
-- [What is SEO?](#what-is-seo)
-  - [What are the core SEO strategies?](#core-seo-strategies)
-- [What is GEO?](#what-is-geo)
-  - [What GEO strategies can you implement today?](#geo-strategies-you-can-implement-today)
-- [What is AEO?](#what-is-aeo)
-  - [What are common AEO strategies?](#common-aeo-strategies)
-- [SEO vs. GEO vs. AEO: How do they compare?](#seo-vs-geo-vs-aeo-how-do-they-compare)
 - [What is Search Everywhere Optimization?](#what-is-search-everywhere-optimization)
-  - [How to do Search Everywhere Optimization](#how-to-do-search-everywhere-optimization)
+- [What is SEO?](#what-is-seo)
+  - [Core SEO Strategies:](#core-seo-strategies)
+- [What is GEO?](#what-is-geo)
+  - [GEO Strategies You Can Implement Today:](#geo-strategies-you-can-implement-today)
+- [What is AEO?](#what-is-aeo)
+  - [Common AEO Strategies:](#common-aeo-strategies)
+- [SEO vs GEO vs AEO: How Do They Compare?](#seo-vs-geo-vs-aeo-how-do-they-compare)
+- [How to Do Search Everywhere Optimization](#how-to-do-search-everywhere-optimization)
 - [Action Steps: Start This Week](#action-steps-start-this-week)
+- [The Bottom Line](#the-bottom-line)
 - [FAQs](#faqs)
 
 </div>
