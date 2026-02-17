@@ -8,7 +8,7 @@
 
 **GEO (Generative Engine Optimization)** gets you recommended by AI chatbots like ChatGPT, Claude, and Perplexity.
 
-**AEO (Answer Engine Optimization)** gets you featured in instant answers, voice search, and AI Overviews — before anyone even clicks.
+**AEO (Answer Engine Optimization)** gets you featured in instant answers, voice search, and AI Overviews, before anyone even clicks.
 
 In 2026, you need all three. Together, they form one complete strategy: **Search Everywhere Optimization.**
 
@@ -65,7 +65,7 @@ When someone types "invoice automation software" into Google, the algorithm deci
 - **Content:** Write detailed, authoritative guides (1500+ words)
 - **Technical:** Fast loading, mobile-friendly, clean URL structure
 
-**Is SEO still relevant?** Absolutely. Google still processes over 8 billion searches per day. SEO isn't dead - it's just not enough on its own anymore.
+**Is SEO still relevant?** Absolutely. Google still processes over 8 billion searches per day. SEO isn't dead,it's just not enough on its own anymore.
 
 ---
 
@@ -109,7 +109,7 @@ You've seen this in action:
 
 - **Answer questions directly:** Put the answer in the first 2-3 sentences, not buried at the bottom
 - **Use FAQ format:** Structure content as clear Q&A with proper headings
-- **Schema markup:** Add [structured data](https://schema.org/) code so search engines understand your content
+- **Schema markup:** Add [structured data](https://docschema.piwi.ai/) code so search engines understand your content
 - **Short paragraphs:** Keep paragraphs under 3-4 sentences for easy extraction
 - **Target question-based keywords:** "What is," "How to," "Why does" queries
 
