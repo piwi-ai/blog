@@ -119,6 +119,8 @@ You've seen this in action:
 
 ## SEO vs GEO vs AEO: How Do They Compare?
 
+<div style="overflow-x: auto;">
+
 | Aspect | SEO | GEO | AEO |
 |--------|-----|-----|-----|
 | **Target** | Google, Bing | ChatGPT, Claude, Perplexity | AI Overviews, Voice Search, Snippets |
@@ -126,6 +128,8 @@ You've seen this in action:
 | **Success Metric** | Page rank, traffic | AI citations | Featured snippet, voice results |
 | **Content Style** | Keyword-optimized | Clear, factual, definitive | Concise, structured, Q&A format |
 | **Click Required?** | Yes | Sometimes | No (zero-click) |
+
+</div>
 
 **The overlap:** All three reward clear, structured, credible content. Write well for one, and you're helping all three.
 
