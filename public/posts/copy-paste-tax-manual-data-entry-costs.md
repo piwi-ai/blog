@@ -166,7 +166,7 @@ The Copy-Paste Tax is real. It's expensive. And in 2026, it's entirely avoidable
 
 **Q: Won't automation eliminate jobs?**
 
-No—it eliminates tasks. The same employees who were doing data entry can now focus on higher-value work: customer service, relationship building, problem-solving, and strategic initiatives. Companies that automate don't typically reduce headcount; they redeploy people to growth activities.
+No, it eliminates tasks. The same employees who were doing data entry can now focus on higher-value work: customer service, relationship building, problem-solving, and strategic initiatives. Companies that automate don't typically reduce headcount; they redeploy people to growth activities.
 
 **Q: What if my documents are too complex for automation?**
 

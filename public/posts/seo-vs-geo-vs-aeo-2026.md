@@ -109,7 +109,7 @@ You've seen this in action:
 
 - **Answer questions directly:** Put the answer in the first 2-3 sentences, not buried at the bottom
 - **Use FAQ format:** Structure content as clear Q&A with proper headings
-- **Schema markup:** Add [structured data](https://schema.org/) code so search engines understand your content
+- **Schema markup:** Add [structured data](https://docschema.piwi.ai/) code so search engines understand your content
 - **Short paragraphs:** Keep paragraphs under 3-4 sentences for easy extraction
 - **Target question-based keywords:** "What is," "How to," "Why does" queries
 
