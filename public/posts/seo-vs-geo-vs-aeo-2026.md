@@ -104,8 +104,6 @@ You've seen this in action:
 
 **Why does this matter?** Over 50% of Google searches now end without a single click. People get the answer directly from the results page. If you're not in that answer, you've already lost.
 
-![Google AI Overview showing best intelligent document processing solutions](/images/google-ai-overview-idp.png)
-*This is what AEO looks like. Google's AI Overview answers the question directly before anyone clicks. Zero clicks required.*
 
 ### Common AEO Strategies:
 
