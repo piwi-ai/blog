@@ -9,7 +9,7 @@ Most real estate document automation tools in 2026 still just read your files. T
 <div style="color: #00b894;">
 
 - [Why Most "Automation" Tools Aren't](#why-most-automation-tools-arent)
-- [The 7 Features That Actually Matter](#the-7-features-that-actually-matter)
+- [The 6 Features That Actually Matter](#the-6-features-that-actually-matter)
 - [Feature Comparison: Readers vs. Real Automation](#feature-comparison-readers-vs-real-automation)
 - [What This Looks Like in Practice](#what-this-looks-like-in-practice)
 - [The Bottom Line](#the-bottom-line)
@@ -27,7 +27,7 @@ But here's what most agents discover after signing up: the tool reads the docume
 
 That's not automation. That's OCR with a nicer interface. If you're still bridging the gap manually, you're paying what we call the [Copy-Paste Tax](/copy-paste-tax-manual-data-entry-costs).
 
-## The 7 Features That Actually Matter
+## The 6 Features That Actually Matter
 
 ### 1. Context-Aware Extraction
 
@@ -70,14 +70,6 @@ You're handling passports, bank statements, social security numbers. Uploading t
 The industry average for standard OCR on complex layouts sits between **40-60%**. Companies using document automation for lease agreements report a [40% reduction in processing time](https://market.us/report/intelligent-document-processing-market/). But speed without accuracy just means you produce wrong documents faster.
 
 **What to look for:** Published accuracy rates above 95% for complex documents. Ask vendors for benchmarks on handwritten text and photographed documents specifically.
-
-### 7. Integration With Your Existing Stack
-
-Your CRM, your transaction management platform, your e-signature tool. A document automation system that lives in isolation creates another silo.
-
-Transaction automation is estimated to **reduce errors by 40%** and save hundreds of hours. But only if data flows through your entire workflow, not just one step.
-
-**What to look for:** Native integrations or API connections to your existing tools.
 
 ## Feature Comparison: Readers vs. Real Automation
 
