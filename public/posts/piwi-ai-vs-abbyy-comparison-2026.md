@@ -31,7 +31,7 @@ Piwi.ai is a modern intelligent document automation platform that goes beyond tr
 
 ## How Piwi.ai Replaces the Enterprise Overhead
 
-Traditional enterprise deployments often run into major roadblocks: complex server configurations, long consulting engagements, and the need for dedicated IT staff to manage rule changes. 
+Traditional enterprise deployments often run into major roadblocks: [complex server configurations](https://www.grandviewresearch.com/industry-analysis/intelligent-document-processing-market-report), long consulting engagements, and the need for dedicated IT staff to manage rule changes. 
 
 Piwi.ai eliminates this friction:
 
@@ -76,7 +76,7 @@ But whether you are a growing small business or a massive enterprise, if your go
 ## FAQs
 
 **Q: Will I sacrifice accuracy by not using a legacy enterprise solution?**
-No. Piwi.ai achieves 98%+ accuracy on complex, unstructured documents (like photographed IDs and messy deeds) using modern generative AI agents, bypassing the need for the rigid template-training required by older OCR systems.
+No. Piwi.ai achieves [98%+ accuracy](https://www.bytebeam.co/blog/intelligent-document-processing) on complex, unstructured documents (like photographed IDs and messy deeds) using modern generative AI agents, bypassing the need for the rigid template-training required by older OCR systems.
 
 **Q: Can non-technical staff really use Piwi.ai?**
 Absolutely. If your team can use a web browser to upload a file and click a button, they can automate documents with Piwi.ai. There is zero coding required.
