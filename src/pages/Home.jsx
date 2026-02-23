@@ -11,7 +11,7 @@ function formatDate(dateStr) {
 }
 
 export default function Home() {
-    const latestPosts = posts.slice(0, 3)
+    const latestPosts = posts.slice(0, 5)
 
     useEffect(() => {
         document.title = 'Piwi.ai Blog — Process Information with Intelligence'
