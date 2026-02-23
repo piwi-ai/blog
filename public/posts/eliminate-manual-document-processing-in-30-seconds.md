@@ -1,6 +1,6 @@
 ## The Implementation Trap
 
-When businesses decide it's finally time to stop manually typing data from PDFs into their systems, they usually start looking at enterprise document automation software. 
+When businesses decide it's finally time to stop manually typing data from PDFs into their systems and eliminate the [hidden costs of manual data entry](https://blog.piwi.ai/copy-paste-tax-manual-data-entry-costs), they usually start looking at enterprise document automation software. 
 
 The sales pitch sounds great: "We can automate your invoices, your contracts, and your onboarding forms!"
 
