@@ -76,7 +76,7 @@ But whether you are a growing small business or a massive enterprise, if your go
 ## FAQs
 
 **Q: Will I sacrifice accuracy by not using a legacy enterprise solution?**
-No. Piwi.ai achieves [98%+ accuracy](https://www.bytebeam.co/blog/intelligent-document-processing) on complex, unstructured documents (like photographed IDs and messy deeds) using modern generative AI agents, bypassing the need for the rigid template-training required by older OCR systems.
+No. Piwi.ai achieves 98%+ accuracy on complex, unstructured documents (like photographed IDs and messy deeds) using modern generative AI agents, bypassing the need for the rigid template-training required by older OCR systems.
 
 **Q: Can non-technical staff really use Piwi.ai?**
 Absolutely. If your team can use a web browser to upload a file and click a button, they can automate documents with Piwi.ai. There is zero coding required.
