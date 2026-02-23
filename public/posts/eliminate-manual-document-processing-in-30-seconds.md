@@ -18,7 +18,7 @@ At [Piwi.ai](https://piwi.ai), we believe that if you can't use a document autom
 
 We built Piwi.ai to eliminate the "implementation tax" entirely. Because our system uses semantic AI to understand documents out-of-the-box, there is zero model training required. It already knows what a "First Name" and a "Total Amount Due" looks like, regardless of how the source document is formatted.
 
-Here is what the entire setup and execution process looks like in Piwi.ai. It doesn't take 30 days. It takes about 30 seconds.
+Here is what the entire setup and execution process looks like in Piwi.ai. It doesn't take 30 days. It takes about 30 seconds. *(Want to see it for yourself? Check out our [recent walkthrough on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7430967592716210176)).*
 
 ### Step 1: Upload Your Template (10 Seconds)
 
