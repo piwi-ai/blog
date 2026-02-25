@@ -91,7 +91,7 @@ This is one of the most significant differentiators in the market.
 
 ## Pricing
 
-**Google Document AI:** Charges per-page based on processor type, typically [$10 to $65 per 1,000 pages](https://cloud.google.com/document-ai/pricing) for standard models and significantly more for custom processors. Engineering and maintenance costs are additional.
+**Google Document AI:** Pricing varies by processor type and volume. Check the [official Google Document AI pricing page](https://cloud.google.com/document-ai/pricing) for current rates. Engineering and maintenance costs to build your application on top of the API are additional.
 
 **Piwi.ai:**
 - **Offline:** Completely free, unlimited documents, no signup.
