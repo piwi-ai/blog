@@ -2,7 +2,7 @@
 
 "Can't I just use ChatGPT for this?"
 
-It's the most common question I get. And honestly, I get why people ask it. ChatGPT, Claude, Gemini — they can all read a document, pull out data, and return something that looks right. That's impressive.
+It's the most common question I get. And honestly, I get why people ask it. ChatGPT, Claude, Gemini, they can all read a document, pull out data, and return something that looks right. That's impressive.
 
 But "looks right" is not good enough when you're processing invoices for your finance team, verifying IDs for onboarding, or filling out contracts. There's a real gap between what AI tools do and what a business actually needs from document processing.
 
