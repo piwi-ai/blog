@@ -119,7 +119,7 @@ If you are a business that processes invoices, contracts, identity documents, re
 No. Piwi.ai runs a 4-step pipeline: classify, extract, validate, and aggregate. The double-validation step - where a second independent AI pass cross-checks the first - is what produces the 98% accuracy on structured data.
 
 **Q: Does Piwi.ai have a free version?**
-Yes. The offline mode is completely free with unlimited documents. It runs entirely in your browser using local AI inference via Ollama, and your data never leaves your device.
+Yes - two of them. The **offline mode** is completely free with unlimited documents. It runs entirely in your browser using local AI inference via Ollama, and your data never leaves your device. The **cloud version** also includes 100 free credits on signup - no credit card required.
 
 **Q: What document types does Piwi.ai support?**
 Piwi.ai supports PDFs, images (JPEG, PNG, TIFF, WebP), and scanned files in any language. It handles invoices, contracts, IDs, receipts, certificates, permits, and any custom document type you define with your own schema.
