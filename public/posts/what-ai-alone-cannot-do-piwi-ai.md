@@ -30,31 +30,31 @@ No AI model can independently verify its own output. When you ask the same model
 
 Piwi.ai runs two completely separate AI passes. The first extracts the data. The second reads the same document from scratch and cross-checks every field against the first result. If they disagree on anything, the system flags it for review before the output is produced.
 
-This is what drives Piwi.ai's **98% accuracy** on structured data. Not a better model — a better system. One that's designed to catch what any single model will inevitably miss.
+This is what drives Piwi.ai's **98% accuracy** on structured data. Not a better model. A better system, designed to catch what any single model will inevitably miss.
 
 ## 2. Piwi.ai Runs With No Internet Connection
 
-Every AI provider in the market sends your documents to a remote server. For most use cases, that's acceptable. For legal, healthcare, and financial workflows involving sensitive personal data, it may not be — and in some jurisdictions, it's a direct compliance risk.
+Every AI provider in the market sends your documents to a remote server. For most use cases, that's acceptable. For legal, healthcare, and financial workflows involving sensitive personal data, it may not be. In some jurisdictions, it's a direct compliance risk.
 
 Piwi.ai's offline mode runs entirely in your browser. It uses [Ollama](https://ollama.com) for local AI inference and Tesseract.js for OCR. Nothing is transmitted. No account is required. No documents leave your device.
 
-It's free, unlimited, and works with no internet connection at all. That's not a configuration option for other AI tools — it's simply not how cloud AI works.
+It's free, unlimited, and works with no internet connection at all. Other AI tools simply don't offer this. It's not how cloud AI works.
 
 ## 3. Piwi.ai Says "I Don't Know" Instead of Guessing
 
 Language models are trained to produce the most plausible next output. When a value isn't clearly visible in a document, a model often fills the gap with something that looks right. In a passport application or a financial onboarding form, a plausible-looking fabrication is worse than a blank field.
 
-Piwi.ai applies a strict schema to every extraction. If a required field is missing, unreadable, or ambiguous, it flags that field explicitly. The output is either verified structured data or a clear prompt for human review — never a guess dressed up as a fact.
+Piwi.ai applies a strict schema to every extraction. If a required field is missing, unreadable, or ambiguous, it flags that field explicitly. The output is either verified structured data or a clear prompt for human review. Never a guess dressed up as a fact.
 
 The ability to say "I don't know" is not a limitation. In document processing, it's the most responsible thing a system can do. For more on this, see our piece on [AI Agents vs Traditional OCR](/ai-agents-vs-traditional-ocr-2026).
 
 ## 4. Piwi.ai Compares Multiple Documents at Once
 
-When an AI processes a document, it sees that document and nothing else. Even in agentic setups with multiple sequential calls, each document is evaluated in isolation. Nobody is checking whether the name on the passport matches the name on the utility bill — or whether the declared income on an application is consistent with the bank statements provided.
+When an AI processes a document, it sees that document and nothing else. Even in agentic setups with multiple sequential calls, each document is evaluated in isolation. Nobody checks whether the name on the passport matches the name on the utility bill, or whether the declared income on an application is consistent with the bank statements provided.
 
 Piwi.ai's Aggregate step does this automatically. Once all source documents have been individually extracted and validated, the system cross-references entities across all of them. Any discrepancy in names, dates, addresses, or identification numbers is surfaced before the output is generated.
 
-For HR onboarding, mortgage applications, or any multi-document compliance workflow, this isn't optional — it's the difference between automation and reliable automation.
+For HR onboarding, mortgage applications, or any multi-document compliance workflow, this isn't optional. It's the difference between automation and reliable automation.
 
 ## 5. Piwi.ai Fills Out Your PDF for You
 
@@ -75,7 +75,7 @@ Piwi.ai's pipeline is fixed and deterministic:
 3. **Validate** with an independent second AI pass
 4. **Aggregate** entities across all source documents
 
-Every step produces a verifiable output. Every result is traceable back to a specific document, field, and pipeline stage. For businesses in regulated industries, this isn't a nice-to-have — it's a requirement.
+Every step produces a verifiable output. Every result is traceable back to a specific document, field, and pipeline stage. For businesses in regulated industries, this isn't a nice-to-have. It's a requirement.
 
 ---
 
