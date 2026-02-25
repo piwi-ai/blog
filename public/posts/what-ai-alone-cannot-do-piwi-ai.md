@@ -94,4 +94,20 @@ AI tools are impressive. But they're general-purpose, and document processing is
 
 That's what Piwi.ai is built for.
 
+## FAQs
+
+**Q: Can't I just build these features with an AI agent?**
+You can try, but agents are unpredictable by nature. Each run may take different steps, and there's no built-in cross-validation. Piwi.ai's pipeline runs the same way every time and catches its own errors structurally.
+
+**Q: Is the offline mode really free?**
+Yes, completely. No account, no document limits, no API costs. It runs entirely in your browser using local AI inference. Your files never leave your device.
+
+**Q: What happens when Piwi.ai can't find a field?**
+It flags it clearly instead of guessing. You get a notification for that specific field so a human can review it. This is intentional — accuracy matters more than always producing an answer.
+
+**Q: Does Piwi.ai work with any document type?**
+Yes. It supports PDFs, images (JPEG, PNG, TIFF, WebP), and scanned files in any language. You can use built-in schemas for common document types like invoices, IDs, and contracts, or define your own custom schema.
+
+---
+
 [Try Piwi.ai for free at piwi.ai](https://piwi.ai). No signup required for the offline version.
