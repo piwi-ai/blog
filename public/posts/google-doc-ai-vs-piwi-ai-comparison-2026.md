@@ -6,7 +6,7 @@ But there's a fundamental difference between the two: **Google Document AI gives
 
 > **Google Document AI stops at extraction. Piwi.ai closes the loop.**
 
-In this comparison, we'll break down the architecture, privacy model, pricing, and use cases for each platform so you can decide which is right for your business.
+In this comparison, I'll break down the architecture, privacy model, pricing, and use cases for each platform so you can decide which is right for your business.
 
 ---
 
