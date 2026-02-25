@@ -2,7 +2,7 @@
 
 When businesses decide to automate document processing in 2026, Google Document AI is often one of the first names they explore. It's built on Google's industry-leading machine learning and delivers strong data extraction from virtually any document type.
 
-But there's a fundamental difference between the two: **Google Document AI gives you extracted data. Piwi.ai closes the loop** - classifying, extracting, double-validating, and aggregating data across documents with 98% accuracy, then producing the finished document output your business actually needs.
+But there's a fundamental difference between the two: **Google Document AI gives you extracted data. Piwi.ai closes the loop** by classifying, extracting, double-validating, and aggregating data across documents with 98% accuracy, then producing the finished document output your business actually needs.
 
 > **Google Document AI stops at extraction. Piwi.ai closes the loop.**
 
@@ -31,14 +31,14 @@ In this comparison, I'll break down the architecture, privacy model, pricing, an
 
 Google Document AI is an API that provides pre-trained models and custom processors to [extract structured data from unstructured documents](https://cloud.google.com/document-ai/docs/processors-list). For engineering teams building document pipelines into larger software products, it's a solid and scalable backend engine.
 
-The limitation is the delivery format. The output is JSON - useful data, but raw. To make it usable for a business, developers must:
+The limitation is the delivery format. The output is JSON: useful data, but raw. To make it usable for a business, developers must:
 
 1.  Build an architecture to upload and route documents to the API.
 2.  Parse and handle the JSON responses in code.
 3.  Build a UI so non-technical staff can review and work with results.
 4.  Write scripts to move that data into its final destination: a contract, a CRM record, a finalized PDF.
 
-This is substantial engineering work - often representing more investment than the API itself before any business user can actually benefit from it.
+This is substantial engineering work, often representing more investment than the API itself before any business user can actually benefit from it.
 
 ## How Piwi.ai's 4-Call AI Pipeline Works
 
@@ -60,7 +60,7 @@ Unlike Google Document AI, which stops at extraction, Piwi.ai's **Intelligent Ma
 
 **Step 1 - Upload Your Template:** Upload the contract or form you repeatedly fill out. Piwi.ai automatically identifies all fields that need to be populated.
 
-**Step 2 - Upload Your Source Documents:** Drag in the supporting files - passports, utility bills, bank statements, deeds. Piwi.ai reads, extracts, and validates everything automatically.
+**Step 2 - Upload Your Source Documents:** Drag in the supporting files (passports, utility bills, bank statements, deeds). Piwi.ai reads, extracts, and validates everything automatically.
 
 **Step 3 - Download the Finished Document:** Your completed PDF is formatted and ready for signature. No manual typing, no copy-pasting.
 
@@ -91,7 +91,7 @@ This is one of the most significant differentiators in the market.
 
 ## Pricing
 
-**Google Document AI:** Charges per-page based on processor type - typically [$10 to $65 per 1,000 pages](https://cloud.google.com/document-ai/pricing) for standard models, significantly more for custom processors. Engineering and maintenance costs are additional.
+**Google Document AI:** Charges per-page based on processor type, typically [$10 to $65 per 1,000 pages](https://cloud.google.com/document-ai/pricing) for standard models and significantly more for custom processors. Engineering and maintenance costs are additional.
 
 **Piwi.ai:**
 - **Offline:** Completely free, unlimited documents, no signup.
@@ -99,7 +99,7 @@ This is one of the most significant differentiators in the market.
 - **Cloud Business:** Volume discounts down to **€0.05/page**.
 - **Enterprise:** Custom SLAs, dedicated security, and volume pricing.
 
-Start with 100 free cloud credits - no credit card required.
+Start with 100 free cloud credits, no credit card required.
 
 ## Who Should Choose Each Platform?
 
@@ -112,7 +112,7 @@ Start with 100 free cloud credits - no credit card required.
 ## FAQs
 
 **Q: Does Piwi.ai achieve its accuracy with a single AI call?**
-No. The double-validation pipeline - two independent AI passes that cross-check each other - is what produces the 98% accuracy on structured data.
+No. The double-validation pipeline (two independent AI passes that cross-check each other) is what produces the 98% accuracy on structured data.
 
 **Q: Does Piwi.ai have a free version?**
 Yes, two. The **offline mode** is completely free with unlimited documents and runs in your browser (data never leaves your device). The **cloud version** includes 100 free credits on signup, no credit card required.
