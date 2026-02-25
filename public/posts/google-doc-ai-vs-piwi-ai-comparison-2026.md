@@ -55,6 +55,20 @@ This is substantial custom software development that adds time, cost, and ongoin
 
 The outcome isn't just extracted strings. It's verified, structured data you can trust and act on immediately.
 
+## Intelligent Mapping: From Source Documents to Finished PDF
+
+Unlike Google Document AI, which stops at extraction, Piwi.ai takes it one step further with **Intelligent Mapping** - a no-code workflow that turns raw documents into completed, ready-to-sign PDFs. Here's what that looks like in practice:
+
+**Step 1 - Upload Your Template:** Upload the contract, form, or document you repeatedly fill out - once. Piwi.ai automatically identifies all the fields that need to be populated.
+
+**Step 2 - Upload Your Source Documents:** Drag in the supporting files: passports, utility bills, bank statements, deeds - whatever contains the data you need. Piwi.ai reads, extracts, and validates the information automatically using the 4-call AI pipeline.
+
+**Step 3 - Download the Finished Document:** Your completed PDF is formatted and ready for signature. No manual typing, no copy-pasting between windows, and zero manual review required.
+
+Piwi.ai's Intelligent Mapping understands the *meaning* of fields, not just the text. It knows that a **Passport Number** and an **ID Number** are different fields - even when they look identical on the page. The entire process takes minutes, and because no code is involved, anyone on your team can do it.
+
+This is what makes Piwi.ai fundamentally different from Google Document AI: Google tells you *what* is in a document. Piwi.ai uses that knowledge to *complete the job*.
+
 ## Privacy: Offline Mode vs Cloud APIs
 
 This is one of the most significant differentiators that no other Google Document AI competitor offers.
