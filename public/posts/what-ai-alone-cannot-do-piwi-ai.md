@@ -18,6 +18,7 @@ But when it comes to processing real business documents, there are six things Pi
 - [4. Piwi.ai Compares Multiple Documents at Once](#4-piwiai-compares-multiple-documents-at-once)
 - [5. Piwi.ai Fills Out Your PDF for You](#5-piwiai-fills-out-your-pdf-for-you)
 - [6. Piwi.ai Follows the Same Steps, Every Single Time](#6-piwiai-follows-the-same-steps-every-single-time)
+- [FAQs](#faqs)
 
 </div>
 
