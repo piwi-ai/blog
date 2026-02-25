@@ -30,7 +30,7 @@ In this comparison, we'll break down which platform is right for your business.
 
 ## What Google Document AI Actually Is
 
-Google Document AI is a powerful API that provides pre-trained models (like invoice parsers) and custom processors to extract structured data from unstructured documents. For engineering teams building document pipelines into larger software products, it's a strong backend engine.
+Google Document AI is a powerful API that provides pre-trained models (like invoice parsers) and custom processors to [extract structured data from unstructured documents](https://cloud.google.com/document-ai/docs/processors-list). For engineering teams building document pipelines into larger software products, it's a strong backend engine.
 
 However, because it is an API, it requires significant technical work to become useful to a business:
 
@@ -43,7 +43,7 @@ This is substantial custom software development that adds time, cost, and ongoin
 
 ## How Piwi.ai's 4-Call AI Pipeline Works
 
-[Piwi.ai](https://piwi.ai) is a full intelligent document processing platform. It doesn't just extract text - it understands documents through a structured 4-step AI pipeline designed to deliver near-perfect accuracy:
+[Piwi.ai](https://piwi.ai) is a full intelligent document processing platform. It doesn't just extract text - it understands documents through a structured 4-step AI pipeline designed to deliver near-perfect accuracy. If you're coming from a traditional OCR background, [our guide on AI Agents vs Traditional OCR](/ai-agents-vs-traditional-ocr-2026) explains why the difference in approach matters so much.
 
 **Step 1 - Classify:** Piwi.ai first identifies the document type. Is this an invoice, an ID card, a contract, a receipt, a certificate? It adapts its entire extraction approach accordingly.
 
@@ -95,7 +95,7 @@ This is one of the most significant differentiators that no other Google Documen
 
 ## Pricing
 
-**Google Document AI Pricing:** Google charges per-page based on the processor type (typically $10 to $65 per 1,000 pages for standard models, significantly more for custom trained processors). All processing costs must be added to the engineering time required to build and maintain the application.
+**Google Document AI Pricing:** Google charges per-page based on the processor type (typically [$10 to $65 per 1,000 pages](https://cloud.google.com/document-ai/pricing) for standard models, significantly more for custom trained processors). All processing costs must be added to the engineering time required to build and maintain the application.
 
 **Piwi.ai Pricing:**
 - **Offline:** Completely free, unlimited documents, no signup.
