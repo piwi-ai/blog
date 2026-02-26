@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piwi.ai LinkedIn Carousel</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 40px 20px;
+  }
+
+  .slide {
+    width: 1080px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  /* ─── COVER SLIDE ─── */
+  .slide-cover {
+    background: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+  }
+
+  .slide-cover .tag {
+    font-size: 18px;
+    font-weight: 600;
+    color: #33cc85;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+
+  .slide-cover .question {
+    font-size: 52px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 40px;
+  }
+
+  .slide-cover .question em {
+    color: #33cc85;
+    font-style: normal;
+  }
+
+  .slide-cover .subtitle {
+    font-size: 24px;
+    color: #888;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-bottom: 60px;
+  }
+
+  .slide-cover .swipe {
+    font-size: 20px;
+    color: #555;
+    font-weight: 500;
+  }
+
+  .slide-cover .swipe span {
+    color: #33cc85;
+  }
+
+  /* ─── FEATURE SLIDES ─── */
+  .slide-feature {
+    background: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+  }
+
+  .slide-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .slide-number {
+    width: 52px;
+    height: 52px;
+    background: #33cc85;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 800;
+    color: #0a0a0a;
+    flex-shrink: 0;
+  }
+
+  .slide-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #33cc85;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .slide-feature h2 {
+    font-size: 52px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 40px;
+  }
+
+  .slide-feature p {
+    font-size: 22px;
+    color: #aaa;
+    line-height: 1.7;
+    flex: 1;
+  }
+
+  .slide-feature .highlight {
+    background: #33cc8515;
+    border-left: 4px solid #33cc85;
+    padding: 24px 28px;
+    border-radius: 0 12px 12px 0;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #33cc85;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  /* AI label */
+  .ai-pill {
+    display: inline-block;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 100px;
+    padding: 8px 20px;
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 16px;
+  }
+
+  /* ─── CTA SLIDE ─── */
+  .slide-cta {
+    background: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+  }
+
+  .slide-cta .logo {
+    font-size: 28px;
+    font-weight: 800;
+    color: #33cc85;
+    letter-spacing: -0.02em;
+    margin-bottom: 48px;
+  }
+
+  .slide-cta h2 {
+    font-size: 56px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.2;
+    margin-bottom: 32px;
+  }
+
+  .slide-cta p {
+    font-size: 22px;
+    color: #888;
+    line-height: 1.6;
+    max-width: 720px;
+    margin-bottom: 60px;
+  }
+
+  .slide-cta .cta-btn {
+    background: #33cc85;
+    color: #0a0a0a;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px 48px;
+    border-radius: 12px;
+  }
+
+  /* ─── BRANDING BAR ─── */
+  .brand-bar {
+    position: absolute;
+    bottom: 48px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .brand-bar .brand-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+  }
+
+  .brand-bar .brand-name span {
+    color: #33cc85;
+  }
+
+  .brand-bar .slide-count {
+    font-size: 16px;
+    color: #444;
+  }
+
+  /* ─── DECORATIVE ─── */
+  .dot-grid {
+    position: absolute;
+    top: 0; right: 0;
+    width: 400px; height: 400px;
+    background-image: radial-gradient(#33cc8520 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
+  }
+
+  .green-glow {
+    position: absolute;
+    bottom: -200px; right: -200px;
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, #33cc8515 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  /* Print */
+  @media print {
+    body { background: white; padding: 0; gap: 0; }
+    .slide { page-break-after: always; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: COVER -->
+<div class="slide slide-cover">
+  <div class="dot-grid"></div>
+  <div class="green-glow"></div>
+  <div class="tag">Piwi.ai</div>
+  <div class="question">"Can't I just use<br><em>ChatGPT</em> for this?"</div>
+  <div class="subtitle">You can. But there are 6 things ChatGPT simply cannot do when it comes to real document processing.</div>
+  <div class="swipe">Swipe to see what's missing <span>→</span></div>
+  <div class="brand-bar">
+    <div class="brand-name"><span>piwi</span>.ai</div>
+    <div class="slide-count">1 / 8</div>
+  </div>
+</div>
+
+<!-- SLIDE 2 -->
+<div class="slide slide-feature">
+  <div class="dot-grid"></div>
+  <div class="slide-header">
+    <div class="slide-number">1</div>
+    <div class="slide-label">Accuracy</div>
+  </div>
+  <h2>It checks its<br>own work.</h2>
+  <p>AI models can't verify their own outputs. Piwi.ai runs <strong style="color:#fff">two independent AI passes</strong> on every document. If they disagree on any field, it flags it automatically.</p>
+  <div class="highlight">Result: 98% accuracy on structured data.</div>
+  <div class="brand-bar">
+    <div class="brand-name"><span>piwi</span>.ai</div>
+    <div class="slide-count">2 / 8</div>
+  </div>
+</div>
+
+<!-- SLIDE 3 -->
+<div class="slide slide-feature">
+  <div class="dot-grid"></div>
+  <div class="slide-header">
+    <div class="slide-number">2</div>
+    <div class="slide-label">Privacy</div>
+  </div>
+  <h2>It works with<br>zero internet.</h2>
+  <p>Every AI provider sends your documents to a remote server. Piwi.ai's offline mode runs <strong style="color:#fff">entirely in your browser</strong>. No server calls. No account. Nothing leaves your device.</p>
+  <div class="highlight">Free. Unlimited. Works on airplane mode.</div>
+  <div class="brand-bar">
+    <div class="brand-name"><span>piwi</span>.ai</div>
+    <div class="slide-count">3 / 8</div>
+  </div>
+</div>
+
+<!-- SLIDE 4 -->
+<div class="slide slide-feature">
+  <div class="dot-grid"></div>
+  <div class="slide-header">
+    <div class="slide-number">3</div>
+    <div class="slide-label">Reliability</div>
+  </div>
+  <h2>It says "I don't<br>know" instead<br>of guessing.</h2>
+  <p>AI models fill missing fields with plausible-sounding values. In contracts and ID verification, that's dangerous. Piwi.ai <strong style="color:#fff">flags missing fields explicitly</strong> instead of inventing answers.</p>
+  <div class="brand-bar">
+    <div class="brand-name"><span>piwi</span>.ai</div>
+    <div class="slide-count">4 / 8</div>
+  </div>
+</div>
+
+<!-- SLIDE 5 -->
+<div class="slide slide-feature">
+  <div class="dot-grid"></div>
+  <div class="slide-header">
+    <div class="slide-number">4</div>
+    <div class="slide-label">Cross-Validation</div>
+  </div>
+  <h2>It checks across<br>all your documents<br>at once.</h2>
+  <p>AI sees one document at a time. Piwi.ai reads all your files together — passports, bank statements, utility bills — and checks that <strong style="color:#fff">names, dates, and IDs match</strong> across every single one.</p>
+  <div class="brand-bar">
+    <div class="brand-name"><span>piwi</span>.ai</div>
+    <div class="slide-count">5 / 8</div>
+  </div>
+</div>
+
+<!-- SLIDE 6 -->
+<div class="slide slide-feature">
+  <div class="dot-grid"></div>
+  <div class="slide-header">
+    <div class="slide-number">5</div>
+    <div class="slide-label">Output</div>
+  </div>
+  <h2>It fills out your<br>PDF for you.</h2>
+  <p>AI tools extract text. Piwi.ai goes further: it takes that data and <strong style="color:#fff">places it into the right fields of your PDF template</strong>. The output is a completed, formatted document ready for signature.</p>
+  <div class="highlight">No copying. No typing. No developer needed.</div>
+  <div class="brand-bar">
+    <div class="brand-name"><span>piwi</span>.ai</div>
+    <div class="slide-count">6 / 8</div>
+  </div>
+</div>
+
+<!-- SLIDE 7 -->
+<div class="slide slide-feature">
+  <div class="dot-grid"></div>
+  <div class="slide-header">
+    <div class="slide-number">6</div>
+    <div class="slide-label">Auditability</div>
+  </div>
+  <h2>It follows the same<br>steps every time.</h2>
+  <p>AI agents are unpredictable. Different runs, different steps. Piwi.ai runs a <strong style="color:#fff">fixed 4-step pipeline</strong> on every document: Classify, Extract, Validate, Aggregate. Every output is fully traceable.</p>
+  <div class="highlight">No surprises. No black boxes.</div>
+  <div class="brand-bar">
+    <div class="brand-name"><span>piwi</span>.ai</div>
+    <div class="slide-count">7 / 8</div>
+  </div>
+</div>
+
+<!-- SLIDE 8: CTA -->
+<div class="slide slide-cta">
+  <div class="dot-grid"></div>
+  <div class="green-glow"></div>
+  <div class="logo">piwi.ai</div>
+  <h2>Try it free.<br>No signup needed.</h2>
+  <p>The offline version runs in your browser, processes any document, and keeps your files completely private.</p>
+  <div class="cta-btn">piwi.ai →</div>
+  <div class="brand-bar">
+    <div class="brand-name"><span>piwi</span>.ai</div>
+    <div class="slide-count">8 / 8</div>
+  </div>
+</div>
+
+</body>
+</html>
