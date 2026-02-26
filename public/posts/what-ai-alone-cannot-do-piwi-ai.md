@@ -1,4 +1,4 @@
-## What Piwi.ai Can Do That AI and Agentic AI Simply Cannot
+## What Piwi.ai Can Do That AI Chatbots and Agents Simply Can't
 
 "Can't I just use ChatGPT for this?"
 
