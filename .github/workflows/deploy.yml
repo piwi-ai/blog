@@ -29,6 +29,17 @@ jobs:
       - run: npx puppeteer browsers install chrome
       - run: npm run build
 
+      - name: Debug dist contents
+        run: |
+          echo "=== dist/posts files ==="
+          ls -la dist/posts/ || echo "dist/posts NOT FOUND"
+          echo "=== New article md exists? ==="
+          ls -la dist/posts/what-ai-alone-cannot-do-piwi-ai.md || echo "FILE NOT IN DIST"
+          echo "=== Pre-rendered article dir? ==="
+          ls -la dist/what-ai-alone-cannot-do-piwi-ai/ || echo "PRE-RENDERED DIR NOT FOUND"
+          echo "=== All dist root entries ==="
+          ls dist/
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
