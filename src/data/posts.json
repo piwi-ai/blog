@@ -1,5 +1,19 @@
 [
     {
+        "slug": "ai-trends-document-processing-hype-vs-reality",
+        "title": "AI Trends in Document Processing: What's Actually Happening vs the Hype",
+        "date": "2026-03-23",
+        "excerpt": "Agentic AI, zero-shot extraction, 100% straight-through processing — the marketing is everywhere. Here's an honest breakdown of which AI trends in document processing are delivering real results, which are still early-stage, and which are mostly noise.",
+        "author": "alina"
+    },
+    {
+        "slug": "how-to-automate-document-workflow-piwi-ai",
+        "title": "How to Automate Your First Document Workflow This Week",
+        "date": "2026-02-28",
+        "excerpt": "You already know manual document processing wastes time. Here's how to build a working automated workflow for invoices, onboarding documents, or client applications using Piwi.ai, with no coding and no training phase.",
+        "author": "alina"
+    },
+    {
         "slug": "piwi-ai-offline-mode-privacy-first-document-processing",
         "title": "Piwi.ai Offline Mode: 100% Private Document Processing Without the Cloud",
         "date": "2026-02-26",
